@@ -1,3 +1,9 @@
+# LED Traffic Lights
+# Button A causes sequence to run, Button B exits the program.
+# Red LED connected to Pin 0
+# Yellow LED connected to Pin 1
+# Green LED connected to Pin 2
+
 from microbit import *
 
 while True:
@@ -5,7 +11,7 @@ while True:
     pin2.write_digital(1)  # turn on green LED
     
     if button_b.is_pressed():
-        #exit program
+        # exit program
         break
         
     if button_a.is_pressed():

@@ -14,3 +14,7 @@ I recommend using the [Mu](http://codewith.mu/) editor to write your MicroPython
 * sinkingboat.py - takes the boat from displayboat.py and makes it sink. Demonstrates animation on the micro:bit.
 * tickle.py - displays a happy face when pin 1 and GND are connected, otherwise displays a sad face.
 * trafficlights.py - Using 3 LEDs, cycles through the standard traffic light sequence when Button A is pressed. Button B exits the program.
+
+## More examples
+
+* David Whale - [https://github.com/whaleygeek/microbit_python](https://github.com/whaleygeek/microbit_python)
